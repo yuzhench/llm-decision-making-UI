@@ -1,14 +1,19 @@
-# LLM Decision Making (Mac)
+# LLM Decision Making
 
 The app for writing your answers in the LLM Decision Making study (Harvard AI & Robotics Lab).
-Works on macOS 11 or later, on Apple silicon (M1–M4) and Intel Macs.
+Available for **Mac** (macOS 11 or later, Apple silicon and Intel) and **Windows** (Windows 10 or 11, 64-bit).
 
-## Install
+- [Mac](#mac)
+- [Windows](#windows)
+
+## Mac
+
+### Install
 
 1. Download **[LLM-Decision-Making-mac.dmg](https://github.com/yuzhench/llm-decision-making-UI/raw/main/LLM-Decision-Making-mac.dmg)** and open it.
 2. Drag **LLM Decision Making** onto the **Applications** folder.
 
-## Open it the first time
+### Open it the first time
 
 The app is not registered with Apple, so macOS blocks it once. This is expected.
 
@@ -23,6 +28,20 @@ If macOS says the app **"is damaged and can't be opened"**, run this in Terminal
 ```
 xattr -dr com.apple.quarantine "/Applications/LLM Decision Making.app"
 ```
+
+## Windows
+
+### Install
+
+1. Download **[LLM-Decision-Making-windows-setup.exe](https://github.com/yuzhench/llm-decision-making-UI/raw/main/LLM-Decision-Making-windows-setup.exe)**.
+2. Double-click the downloaded file to run the installer.
+3. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**.
+   This appears because the app is not registered with Microsoft. It is expected.
+4. Click through the installer (no administrator password needed) and click **Finish**.
+
+If your browser warns that the file "isn't commonly downloaded", choose **Keep** (in Edge: **⋯ → Keep**, then **Keep anyway**).
+
+After installing, open **LLM Decision Making** from the Start menu.
 
 ## Use
 
