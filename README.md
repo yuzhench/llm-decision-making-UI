@@ -33,13 +33,15 @@ xattr -dr com.apple.quarantine "/Applications/LLM Decision Making.app"
 
 ### Install
 
+> **Use Google Chrome to download the installer.** Internet Explorer and Microsoft Edge may block the download.
+
 1. Download **[LLM-Decision-Making-windows-setup.exe](https://github.com/yuzhench/llm-decision-making-UI/raw/main/LLM-Decision-Making-windows-setup.exe)**.
 2. Double-click the downloaded file to run the installer.
 3. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**.
    This appears because the app is not registered with Microsoft. It is expected.
 4. Click through the installer (no administrator password needed) and click **Finish**.
 
-If your browser warns that the file "isn't commonly downloaded", choose **Keep** (in Edge: **⋯ → Keep**, then **Keep anyway**).
+If Chrome warns about the file, choose **Keep**.
 
 After installing, open **LLM Decision Making** from the Start menu.
 
