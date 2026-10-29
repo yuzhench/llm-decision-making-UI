@@ -37,9 +37,10 @@ xattr -dr com.apple.quarantine "/Applications/LLM Decision Making.app"
 
 1. Download **[LLM-Decision-Making-windows-setup.exe](https://github.com/yuzhench/llm-decision-making-UI/raw/main/LLM-Decision-Making-windows-setup.exe)**.
 2. Double-click the downloaded file to run the installer.
-3. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**.
+3. Right click on downloaded file and select "Run as administrator".
+   -> If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**.
    This appears because the app is not registered with Microsoft. It is expected.
-4. Click through the installer (no administrator password needed) and click **Finish**.
+5. Click through the installer (no administrator password needed) and click **Finish**.
 
 If Chrome warns about the file, choose **Keep**.
 
